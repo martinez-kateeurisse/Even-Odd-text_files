@@ -15,6 +15,7 @@ with open("numbers.txt") as num_file,open("even.txt", "w") as even_file, open("o
         #Convert line to int
         integers = int(line)
         #If the integer is even
+        if (integers % 2) == 0:
             #Write in new text file (even.txt)
         #If the integer is odd
             #Write in new text file (odd.txt)
