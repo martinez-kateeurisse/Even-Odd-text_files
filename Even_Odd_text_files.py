@@ -13,6 +13,7 @@ with open("numbers.txt") as num_file,open("even.txt", "w") as even_file, open("o
     #For each line
     for line in num_file:
         #Convert line to int
+        integers = int(line)
         #If the integer is even
             #Write in new text file (even.txt)
         #If the integer is odd
