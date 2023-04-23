@@ -19,6 +19,7 @@ with open("numbers.txt") as num_file,open("even.txt", "w") as even_file, open("o
             #Write in new text file (even.txt)
             even_file.write(line)
         #If the integer is odd
+        else:    
             #Write in new text file (odd.txt)
-
+            odd_file.write(line)
 #Outputs will be printed in new text files
