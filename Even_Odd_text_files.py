@@ -11,6 +11,7 @@
 #Open and read the text files
 with open("numbers.txt") as num_file,open("even.txt", "w") as even_file, open("odd.txt","w") as odd_file:
     #For each line
+    for line in num_file:
         #Convert line to int
         #If the integer is even
             #Write in new text file (even.txt)
