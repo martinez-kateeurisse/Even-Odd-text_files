@@ -5,6 +5,12 @@
 #which will contain all even numbers extracted from numbers.txt. 
 #The second text file will be named odd.txt and will contain all odd numbers extracted from numbers.txt.
 
+#Import certain modules for the program's design and text formatting
+#Print header art for the program
+
+#Ask the user's name and printing a greeting
+#Display the program's instructions
+
 #Create a text file named numbers.txt 
 #Ask the user to input 20 integers 
 
