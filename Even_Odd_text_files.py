@@ -17,6 +17,7 @@ with open("numbers.txt", "w") as num_file:
         #Ask the user for input
         num_input = input("Please enter an integer: ")        
         #Write the input to the text file
+        num_file.write(num_input+"\n")
         #Add one to the count
 
 #Open and read the text files
