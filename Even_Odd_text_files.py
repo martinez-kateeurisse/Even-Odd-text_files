@@ -10,6 +10,7 @@ from colorama import Back, Fore, Style
 import prog_design
 
 #Print header art for the program
+prog_design.even_odd_header()
 
 #Ask the user's name and printing a greeting
 #Display the program's instructions
