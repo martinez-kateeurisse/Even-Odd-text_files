@@ -9,6 +9,7 @@
 #Ask the user to input 20 integers 
 
 #Open the main text file
+with open("numbers.txt", "w") as num_file:    
     #Initialize count
     #Loop condition
         #Ask the user for input
