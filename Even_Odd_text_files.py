@@ -6,6 +6,9 @@
 #The second text file will be named odd.txt and will contain all odd numbers extracted from numbers.txt.
 
 #Import certain modules for the program's design and text formatting
+from colorama import Back, Fore, Style 
+import prog_design
+
 #Print header art for the program
 
 #Ask the user's name and printing a greeting
