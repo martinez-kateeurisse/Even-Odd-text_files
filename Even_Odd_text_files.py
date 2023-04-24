@@ -13,6 +13,11 @@ import prog_design
 prog_design.even_odd_header()
 
 #Ask the user's name and printing a greeting
+print("//" * 20)
+name = input(f"{Fore.RED} Enter your name: "+ Fore.RESET)
+print("//"*20, "\n\n") 
+print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") + Back.RESET, "\n")
+
 #Display the program's instructions
 
 #Create a text file named numbers.txt 
