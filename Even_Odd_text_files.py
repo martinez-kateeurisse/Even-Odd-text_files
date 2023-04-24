@@ -15,6 +15,7 @@ with open("numbers.txt", "w") as num_file:
     #Loop condition
     while number_count <= 20:
         #Ask the user for input
+        num_input = input("Please enter an integer: ")        
         #Write the input to the text file
         #Add one to the count
 
