@@ -19,6 +19,9 @@ print("//"*20, "\n\n")
 print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") + Back.RESET, "\n")
 
 #Display the program's instructions
+print(f"{Fore.GREEN} This program will write the integers you'll enter into a text file named number.txt.","\n",
+      "Then, all even integers extracted from number.txt will be written to even.txt,","\n"+" while odd integers will be written on odd.txt"+Fore.RESET)
+print("="*85)
 
 #Create a text file named numbers.txt 
 #Ask the user to input 20 integers 
