@@ -6,7 +6,14 @@
 #The second text file will be named odd.txt and will contain all odd numbers extracted from numbers.txt.
 
 #Create a text file named numbers.txt 
-#Input 20 integers to the text file
+#Ask the user to input 20 integers 
+
+#Open the main text file
+    #Initialize count
+    #Loop condition
+        #Ask the user for input
+        #Write the input to the text file
+        #Add one to the count
 
 #Open and read the text files
 with open("numbers.txt") as num_file,open("even.txt", "w") as even_file, open("odd.txt","w") as odd_file:
