@@ -19,7 +19,8 @@ with open("numbers.txt", "w") as num_file:
         #Write the input to the text file
         num_file.write(num_input+"\n")
         #Add one to the count
-
+        number_count += 1
+        
 #Open and read the text files
 with open("numbers.txt") as num_file,open("even.txt", "w") as even_file, open("odd.txt","w") as odd_file:
     #For each line
