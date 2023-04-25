@@ -34,7 +34,7 @@ with open("numbers.txt", "w") as num_file:
     #Loop condition
     while number_count <= 20:
         #Ask the user for input
-        num_input = input(f"{Fore.RED}Please enter an integer: " + Fore.RESET)        
+        num_input = input(f"{Fore.RED} Please enter an integer: " + Fore.RESET)        
         #Write the input to the text file
         num_file.write(num_input+"\n")
         #Add one to the count
@@ -67,6 +67,12 @@ with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, op
             odd_string = "\n".join(odd_int)
 
 #Outputs will be printed in new text files
+
+#Displaying output instructions
+print("="*85)
+print(f"{Fore.LIGHTGREEN_EX} Note: The output of the program will be displayed in a new tkinter window.", "\n" 
+      " And txt files (integer.txt, even.txt, odd.txt) will be created. "+Fore.RESET)
+print("="*85)
 
 #For output design
 #Import modules
@@ -110,4 +116,3 @@ output_label.place(x=50, y=100)
 root.mainloop()
 
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
-
