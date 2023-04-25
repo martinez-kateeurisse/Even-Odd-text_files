@@ -65,11 +65,14 @@ with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, op
             odd_int.append(line.strip())
             #Join as string
             odd_string = "\n".join(odd_int)
-            
+
 #Outputs will be printed in new text files
 
 #For output design
 #Import modules
+import tkinter as tk
+from tkinter import *
+from PIL import ImageTk, Image
 
 #Define the function for buttons
 #Create a new window
