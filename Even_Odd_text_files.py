@@ -96,6 +96,8 @@ canvas.create_image(0,0, anchor=NW, image=image)
 canvas.pack()
 
 #Add two buttons to the window (even, odd)
+button1 = tk.Button(root, text="Even", command=lambda: button_click(1), fg="red")
+button1.place(x=80, y=30)
 #Add a label to display output text
 #main loop
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
