@@ -116,3 +116,6 @@ output_label.place(x=50, y=100)
 root.mainloop()
 
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
+
+#Displaying thank you message after the user closes the tkinter window
+prog_design.program_footer()
