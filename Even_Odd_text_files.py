@@ -83,7 +83,11 @@ def button_click(button_number):
     #If button 2
     elif button_number == 2:
         output_text.set("Odd Integers are: \n" + odd_string)
+
 #Create a new window
+root = tk.Tk()
+root.geometry("200x300")  # Size of the window 
+root.title("File Handling - Even, Odd")  # Adding a title
 #Add background image
 #Add two buttons to the window (even, odd)
 #Add a label to display output text
