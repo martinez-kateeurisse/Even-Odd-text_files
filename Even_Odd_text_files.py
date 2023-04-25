@@ -43,6 +43,8 @@ with open("numbers.txt", "w") as num_file:
 #Open and read the text files
 with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, open("odd.txt","w") as odd_file:
     #Initialize lists
+    even_int = []
+    odd_int = []
     #For each line
     for line in num_file:
         #Convert line to int
