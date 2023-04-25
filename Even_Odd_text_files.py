@@ -106,6 +106,8 @@ output_text = tk.StringVar()
 output_label = tk.Label(root, textvariable=output_text)
 output_label.place(x=50, y=100)
 
-#main loop
+#main loop method
+root.mainloop()
+
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
 
