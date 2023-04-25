@@ -75,6 +75,14 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 #Define the function for buttons
+#Define the function for button clicks
+def button_click(button_number):
+    #If button 1
+    if button_number == 1:
+        output_text.set("Even Integers are: \n" + even_string)
+    #If button 2
+    elif button_number == 2:
+        output_text.set("Odd Integers are: \n" + odd_string)
 #Create a new window
 #Add background image
 #Add two buttons to the window (even, odd)
