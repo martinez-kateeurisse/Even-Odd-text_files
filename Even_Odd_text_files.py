@@ -20,7 +20,7 @@ print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") +
 
 #Display the program's instructions
 print(f"{Fore.GREEN} This program will write the integers you'll enter into a text file named number.txt.","\n",
-      "Then, all even integers extracted from number.txt will be written to even.txt,","\n"+" while odd integers will be written on odd.txt"+Fore.RESET)
+      "Then, all even integers will be doubled and written to even.txt,","\n"+" while odd integers will be tripled and written on odd.txt"+Fore.RESET)
 print("="*85)
 
 #Create a text file named numbers.txt 
@@ -41,6 +41,7 @@ with open("numbers.txt", "w") as num_file:
 
 #Open and read the text files
 with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, open("odd.txt","w") as odd_file:
+    #Initialize lists
     #For each line
     for line in num_file:
         #Convert line to int
@@ -49,8 +50,25 @@ with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, op
         if (integers % 2) == 0:
             #Write in new text file (even.txt)
             even_file.write(line)
+            #Append into a list
+            #Join as string
         #If the integer is odd
         else:    
             #Write in new text file (odd.txt)
             odd_file.write(line)
+            #Append into a list
+            #Join as string
+
 #Outputs will be printed in new text files
+
+#For output design
+#Import modules
+
+#Define the function for buttons
+#Create a new window
+#Add background image
+#Add two buttons to the window (even, odd)
+#Add a label to display output text
+#main loop
+#Output will also be displayed in the tkinter window.(Aside from the txt files)
+
