@@ -20,7 +20,8 @@ print(Back.LIGHTBLACK_EX, Fore.LIGHTCYAN_EX, ("Hello " + name).center(84, "*") +
 
 #Display the program's instructions
 print(f"{Fore.GREEN} This program will write the integers you'll enter into a text file named number.txt.","\n",
-      "Then, all even integers will be doubled and written to even.txt,","\n"+" while odd integers will be tripled and written on odd.txt"+Fore.RESET)
+      "Then, all even integers will be written in even.txt,","\n"+" while odd integers will be written in odd.txt", "\n",
+      "The output will also be displayed in a tkinter window" +Fore.RESET)
 print("="*85)
 
 #Create a text file named numbers.txt 
