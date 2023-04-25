@@ -62,8 +62,10 @@ with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, op
             #Write in new text file (odd.txt)
             odd_file.write(line)
             #Append into a list
+            odd_int.append(line.strip())
             #Join as string
-
+            odd_string = "\n".join(odd_int)
+            
 #Outputs will be printed in new text files
 
 #For output design
