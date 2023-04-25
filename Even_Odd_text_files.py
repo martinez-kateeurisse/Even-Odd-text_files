@@ -102,6 +102,10 @@ button2 = tk.Button(root, text="Odd", command=lambda: button_click(2), fg="blue"
 button2.place(x=80, y=60)
 
 #Add a label to display output text
+output_text = tk.StringVar()
+output_label = tk.Label(root, textvariable=output_text)
+output_label.place(x=50, y=100)
+
 #main loop
 #Output will also be displayed in the tkinter window.(Aside from the txt files)
 
