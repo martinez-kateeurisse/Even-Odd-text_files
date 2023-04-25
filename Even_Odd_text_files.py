@@ -88,7 +88,13 @@ def button_click(button_number):
 root = tk.Tk()
 root.geometry("200x300")  # Size of the window 
 root.title("File Handling - Even, Odd")  # Adding a title
+
 #Add background image
+canvas = tk.Canvas(root, width=200, height=300)
+image = ImageTk.PhotoImage(Image.open("C:\\Users\\Kate\\Desktop\\OOP\\progtest\\background_image.jpg"))
+canvas.create_image(0,0, anchor=NW, image=image)
+canvas.pack()
+
 #Add two buttons to the window (even, odd)
 #Add a label to display output text
 #main loop
