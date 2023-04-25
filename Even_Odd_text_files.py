@@ -54,6 +54,7 @@ with open("numbers.txt", "r") as num_file,open("even.txt", "w") as even_file, op
             #Write in new text file (even.txt)
             even_file.write(line)
             #Append into a list
+            even_int.append(line.strip())            
             #Join as string
         #If the integer is odd
         else:    
